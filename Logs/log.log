@@ -1,0 +1,33 @@
+2017-05-31 11:51:09,631-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 11:51:09,766-[BaiduTest] INFO main com.testcases.BasePageTest - Read test data from search.xls complete.
+   2017-05-31 11:51:15,188-[BaiduTest] INFO main com.testcases.BasePageTest - Complete search "selenium".
+   2017-05-31 11:51:19,795-[BaiduTest] INFO main com.testcases.BasePageTest - Complete search "宽容".
+   2017-05-31 11:51:23,790-[BaiduTest] INFO main com.testcases.BasePageTest - Complete search "15966332544".
+   2017-05-31 11:51:23,852-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run searchText case.
+   2017-05-31 11:51:23,852-[BaiduTest] INFO main com.testcases.BasePageTest - ********************************
+   2017-05-31 11:51:24,094-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 14:31:51,323-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 14:31:55,639-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 14:31:55,926-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 15:08:42,346-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 15:08:49,327-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 15:08:49,557-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:31:43,071-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:31:51,937-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:31:52,189-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:32:50,517-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:32:59,363-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:32:59,612-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:33:53,707-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:34:02,505-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:34:02,765-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:36:32,331-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:36:41,165-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:36:41,395-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:40:26,429-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:40:35,311-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:40:35,888-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   2017-05-31 16:41:31,825-[BaiduTest] INFO main com.testcases.BasePageTest - Baidu home page inititalize complete.
+   2017-05-31 16:41:58,451-[BaiduTest] INFO main com.testcases.BasePageTest - Complete run soutuByPic case.
+   2017-05-31 16:41:58,726-[BaiduTest] INFO main com.testcases.BasePageTest - Case complete.
+   

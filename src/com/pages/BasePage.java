@@ -1,13 +1,17 @@
 package com.pages;
 
 import java.io.File;
+import java.io.IOException;
 
+import org.apache.commons.exec.OS;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.common.OperateSettings;
+import com.common.ExcuteFile;
+
+
 
 public class BasePage {
 
@@ -59,17 +63,13 @@ public class BasePage {
 	}
 	
 	//upload picture
-	public void soutu_upload_pic(String path) throws InterruptedException{
+	public void soutu_upload_pic(String filepath) throws IOException, InterruptedException{
+		ExcuteFile eFile=new ExcuteFile();
 		soutuBtn.click();
-		//uploadPic.click();
-		Thread.sleep(2000);		
-		//File file = new File(path);
-		System.out.print("aaa\n");
-		//if (file.exists()) {
-		    uploadPic.click();
-			uploadPic.sendKeys(path);
-			System.out.print("bbb\n");
-		//}
+		uploadPic.click();
+		Thread.sleep(2000);	
+		eFile.uploadFie(filepath);		
+		Thread.sleep(2000);
 		
 
 	}
