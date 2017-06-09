@@ -4,6 +4,10 @@
   <test name="Test">
     <classes>
       <class name="com.testcases.BasePageTest"/>
+        <methods>
+          <include name="searchText" />
+          <include name="baiduSoutu_URL" />          
+        </methods>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
