@@ -37,48 +37,49 @@ public class BasePageTest {
 		logger.info("Baidu home page inititalize complete.");
 	  }
 	
-//	@Test
-//	public void searchText() throws Exception {
-//		 try {
-//			 //Read test data form excel
-//			  String dataFilePath = OperateSettings.getDataPath()+"Search.xls";
-//			  List<String> keywords; 
-//			  OperateExcel operExcel = new OperateExcel();  	 	  
-//			  keywords = operExcel.readExcel_SearchKeyword(dataFilePath,"text");  //parameter (dateFilePath,sheetname in EXCEL)
-//			  
-//			  logger.info("Read test data from search.xls complete.");
-//			  
-//			  for(String keyword:keywords){	 
-//				  pageInit.bPage.searchText(keyword);
-//				  Thread.sleep(3000);		  
-//				  ts.takeScreenShot("baiduSearch","searchText_" + keyword, driver); 
-//				  logger.info("Complete search \"" +keyword +"\".");
-//				  pageInit.bPage.searchBox.clear();			  
-//				  
-//			  }	
-//			  logger.info("Complete run searchText case.");
-//		} catch (Exception e) {
-//			logger.error("Encount exception: "+e.toString());
-//			ts.takeScreenShot("baiduSearch","Exception", driver); 
-//			
-//			
-//		}	 
-//
-//	  }
-//	
-//	
-//	@Test
-//  public void baiduSoutu_URL() throws Exception{
-//	  try {
-//		  String picURL = "http://img0.bdstatic.com/img/image/pcdutu-case-6.jpg";		  
-//		  pageInit.bPage.soutu_url(picURL);
-//		  Thread.sleep(3000);
-//		  ts.takeScreenShot("baiduSoutu", "soutu", driver);
-//	  } catch (Exception e) {
-//		ts.takeScreenShot("soutu","Exception", driver);
-//	  }
-//	  //verifyElementPresent
-//  }
+	@Test
+	public void searchText() throws Exception {
+		 try {
+			 //Read test data form excel
+			  String dataFilePath = OperateSettings.getDataPath()+"Search.xls";
+			  List<String> keywords; 
+			  OperateExcel operExcel = new OperateExcel();  	 	  
+			  keywords = operExcel.readExcel_SearchKeyword(dataFilePath,"text");  //parameter (dateFilePath,sheetname in EXCEL)
+			  
+			  logger.info("Read test data from search.xls complete.");
+			  
+			  for(String keyword:keywords){	 
+				  pageInit.bPage.searchText(keyword);
+				  Thread.sleep(3000);		  
+				  ts.takeScreenShot("baiduSearch","searchText_" + keyword, driver); 
+				  logger.info("Complete search \"" +keyword +"\".");
+				  pageInit.bPage.searchBox.clear();			  
+				  
+			  }	
+			  logger.info("Complete run searchText case.");
+		} catch (Exception e) {
+			logger.error("Encount exception: "+e.toString());
+			ts.takeScreenShot("baiduSearch","Exception", driver); 
+			
+			
+		}	 
+
+	  }
+	
+	
+	@Test
+ public void baiduSoutu_URL() throws Exception{
+	  try {
+		  String picURL = "http://img0.bdstatic.com/img/image/pcdutu-case-6.jpg";		  
+		  pageInit.bPage.soutu_url(picURL);
+		  Thread.sleep(3000);
+		  logger.info("Complete run baiduSoutu_URL case.");
+		  ts.takeScreenShot("baiduSoutu", "soutu", driver);
+	  } catch (Exception e) {
+		ts.takeScreenShot("soutu","Exception", driver);
+	  }
+	  //verifyElementPresent
+ }
 	
 	@Test
 	public void soutuByPic() throws IOException{
